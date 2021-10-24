@@ -11,7 +11,7 @@
                         placeholder="Buscar articulo de interés...">
                 </div>
                 <div class="col-12 col-md-2">
-                    <button type="submit" class="btn btn-primary" (click)="searchPost(txtSearch.value)">Buscar</button>
+                    <button type="submit" (click)="searchPost(txtSearch.value)" class="btn btn-primary">Buscar</button>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
 <section *ngIf="!isLoading" class="blog-list px-3 py-5 p-md-5">
     <div class="container single-col-max-width">
         
-        <div class="item mb-5" *ngFor="let post of postsList">
+        <div class="item mb-5" *ngFor="let post of postsFilterList">
             <div class="row g-3 g-xl-0">
                 <div class="col-2 col-xl-3">
                     <img class="img-fluid post-thumb " src="assets/images/blog/blog-post-thumb-1.jpg" alt="image">

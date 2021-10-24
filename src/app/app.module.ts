@@ -8,6 +8,8 @@ import { FooterComponent } from './shared/widget/components/footer/footer.compon
 import { HomeMainPageComponent } from './shared/widget/components/home-main-page/home-main-page.component';
 import { PostPageComponent } from './shared/widget/components/post-page/post-page.component';
 import { AboutComponent } from './shared/widget/components/about/about.component';
+import { LoaderComponent } from './shared/widget/components/loader/loader.component';
+import { SearchComponent } from './shared/widget/components/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { AboutComponent } from './shared/widget/components/about/about.component
     HomeMainPageComponent,
     PostPageComponent,
     AboutComponent,
-
+    LoaderComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
