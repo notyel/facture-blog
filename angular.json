@@ -66,7 +66,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "facture-posts:build"
+            "browserTarget": "facture-posts:build",
+            "port": 8080
           },
           "configurations": {
             "production": {
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "facture-posts"
+    }
+  },
+  "defaultProject": "facture-posts",
+  "cli": {
+    "analytics": "80c9b285-8537-43ae-959e-8d448aadf32d"
+  }
 }
