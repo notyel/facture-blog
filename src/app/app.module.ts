@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { app_routing } from './app.routes'
 import { AppComponent } from './app.component';
@@ -20,7 +21,8 @@ import { AboutComponent } from './shared/widget/components/about/about.component
   ],
   imports: [
     BrowserModule,
-    app_routing
+    app_routing,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -15,21 +15,9 @@ export class PostPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.loadBasicData();
+    this.loadAllPost();
   }
 
-  private loadBasicData(): void {
-    this.isLoading = true;
-    const oPosts = this.postService.getPosts();
-    forkJoin([oPosts]).subscribe(([PostsResponse]) => {
-        // Carga Post
-        if (PostsResponse.status === StatusCodeEnum.Ok) {
-          console.log(PostsResponse);
-        }
-
-        this.isLoading = false;
-    }, error => {
-        throw error;
-    });
+  private loadAllPost(): void {
   }
 }
