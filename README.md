@@ -1,4 +1,8 @@
-# FacturePosts
+# Facture - Prueba técnica FRONT-END
+Sencillo blog minimalista hecho en Angular que extrae los posts de unas APIS publicas con fines de aprendizaje.
+blog-post-banner-2.jpg
+
+## Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
