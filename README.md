@@ -1,6 +1,8 @@
 # Facture - Prueba técnica FRONT-END
 Sencillo blog minimalista hecho en Angular que extrae los posts de unas APIS publicas con fines de aprendizaje.
-blog-post-banner-2.jpg
+
+![alt text](https://github.com/notyel/FactureBlog/blob/master/src/assets/images/blog/blog-post-banner-2.jpg)
+
 
 ## Project
 
